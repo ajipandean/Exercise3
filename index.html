@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JS Functions</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+  <nav class="navbar navbar-dark bg-info shadow mb-3">
+    <div class="container">
+      <span class="navbar-brand mb-2">Star Wars API - Planet List</span>
+      <div class="input-group mb-2">
+        <input type="text" id="input" onkeyup="searchFunc();" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row py-2">
+      <div class="col table-responsive">
+        <table class="table w-100" id="table">
+          <thead class="thead-light">
+            <tr id="table-head-row">
+              <th>Name</th>
+              <th>Rotation Period</th>
+              <th>Orbital Period</th>
+              <th>Diameter</th>
+              <th>Climate</th>
+              <th>Gravity</th>
+              <th>Terrain</th>
+              <th>Surface Water</th>
+              <th>Population</th>
+              <th>Residents</th>
+              <th>Films</th>
+              <th>Created</th>
+              <th>Edited</th>
+              <th>URL</th>
+            </tr>
+          </thead>
+          <tbody id="tBody">
+            
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+    
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
